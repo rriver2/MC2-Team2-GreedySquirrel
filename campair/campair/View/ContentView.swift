@@ -11,11 +11,11 @@ struct ContentView: View {
     @ObservedObject var viewModel = EditorDetailViewModel2()
     var body: some View {
         VStack {
-            Text(viewModel.titleText)
+            Text("Fighting squerrels!")
                 .padding()
             // testcode
             Button("test") {
-                viewModel.testButtonTouched()
+
             }
         }
     }
